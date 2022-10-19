@@ -27,7 +27,7 @@ export default {
       // {...}
       axios
         .post(
-          `/https://damp-dawn-54546.herokuapp.com/subscribe/${this.category.id}`,
+          `https://damp-dawn-54546.herokuapp.com/subscribe/${this.category.id}`,
           {
             subscriber: clientID,
           }

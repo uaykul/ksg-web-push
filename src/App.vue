@@ -27,7 +27,7 @@ export default {
   },
   created() {
     axios
-      .get("/https://damp-dawn-54546.herokuapp.com/")
+      .get("https://damp-dawn-54546.herokuapp.com/")
       .then((categoryList_response) => {
         console.log("categoryList :>> ", categoryList_response);
         this.categoryList = categoryList_response.data.categoryList;
